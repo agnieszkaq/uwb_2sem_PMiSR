@@ -1,4 +1,5 @@
-package cranecontroller;
+package test;
+import java.util.GregorianCalendar;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -10,15 +11,15 @@ package cranecontroller;
  *
  * @author Admin
  */
-public class CraneController {
+public class Test {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("cranecontroller.CraneController.main()");
-        
+        GregorianCalendar g = new GregorianCalendar();
+        System.out.println(g.toString());        
         
     }
     
